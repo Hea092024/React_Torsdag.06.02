@@ -1,13 +1,12 @@
-const DishCard = () => {
+const DishCard = ({ id, tittel, kategori, ingredienser, pris }) => {
   return (
     <div id="frame">
-      <p>Id</p>
-      <h2>Tittel</h2>
-      <p>Pris</p>
-      <p>Ingredienser</p>
-      <p>Kategori</p>
+      <p>{id}</p>
+      <h2>{tittel}</h2>
+      <p>{pris}</p>
+      <p>{ingredienser}</p>
+      <p>{kategori}</p>
     </div>
   );
 };
-
-export default DishCard
+export default DishCard;

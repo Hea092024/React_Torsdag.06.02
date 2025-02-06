@@ -1,14 +1,15 @@
-import DishCard from "./DishCard.jsx"
+import DishCard from "./DishCard.jsx";
+const MenuLayout = ({ menu }) => {
+  return (
+    <div>
+      <h1>Menu</h1>
+      <ul>
+        {menu.map((obj) => (
+          <DishCard {...obj} />
+        ))}
+      </ul>
+    </div>
+  );
+};
 
-const MenuLayout = ({menu}) => {
-    return (
-        <div>
-        <h1>Menu</h1>
-        <ul>
-            <DishCard />
-        </ul>
-        </div>
-    )
-}
-
-export default MenuLayout
+export default MenuLayout;
