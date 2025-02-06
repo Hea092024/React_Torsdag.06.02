@@ -1,5 +1,5 @@
 import MenuLayout from "./components/MenuLayout.jsx";
-import menu from "./data/menu.jsx";
+import menu from "./components/menu.jsx";
 function App() {
   return (
     <>
