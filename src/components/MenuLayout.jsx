@@ -1,5 +1,6 @@
 import DishCard from "./DishCard.jsx"
-const MenuLayout = () => {
+
+const MenuLayout = ({menu}) => {
     return (
         <div>
         <h1>Menu</h1>
