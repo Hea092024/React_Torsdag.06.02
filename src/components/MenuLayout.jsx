@@ -1,3 +1,4 @@
+import DishCard from "./DishCard.jsx"
 const MenuLayout = () => {
     return (
         <div>
