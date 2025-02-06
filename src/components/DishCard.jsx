@@ -1,7 +1,7 @@
 const DishCard = () => {
     return (
-        <div>
-            
+        <div id="frame">
+
         </div>
     )
 }
