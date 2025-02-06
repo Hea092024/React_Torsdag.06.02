@@ -2,7 +2,9 @@ const MenuLayout = () => {
     return (
         <div>
         <h1>Menu</h1>
-        <ul></ul>
+        <ul>
+            <DishCard />
+        </ul>
         </div>
     )
 }
