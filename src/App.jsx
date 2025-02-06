@@ -1,11 +1,11 @@
-import MenuLayout from "./components/MenuLayout.jsx"
-
+import MenuLayout from "./components/MenuLayout.jsx";
+import menu from "./data/menu.jsx";
 function App() {
-  
-
   return (
-    <div></div>
-  )
+    <>
+      <MenuLayout menu={menu} />
+    </>
+  );
 }
 
-export default App
+export default App;
