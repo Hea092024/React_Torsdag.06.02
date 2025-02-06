@@ -9,3 +9,5 @@ const DishCard = () => {
     </div>
   );
 };
+
+export default DishCard
